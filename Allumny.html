@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alumni</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .tab-content {
+            margin-top: 20px;
+        }
+        .alumni-card {
+            margin-bottom: 20px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .alumni-card h5 {
+            margin-bottom: 10px;
+        }
+        .alumni-card p {
+            margin-bottom: 5px;
+        }
+        .nav-tabs .nav-link {
+            border: none;
+            border-bottom: 3px solid transparent;
+        }
+        .nav-tabs .nav-link.active {
+            border-bottom: 3px solid #007bff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <h2>Alumni</h2>
+        <ul class="nav nav-tabs" id="alumniTabs" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="year2023-tab" data-toggle="tab" href="#year2023" role="tab" aria-controls="year2023" aria-selected="true">2023</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="year2022-tab" data-toggle="tab" href="#year2022" role="tab" aria-controls="year2022" aria-selected="false">2022</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="year2021-tab" data-toggle="tab" href="#year2021" role="tab" aria-controls="year2021" aria-selected="false">2021</a>
+            </li>
+            <!-- Add more years as needed -->
+        </ul>
+        <div class="tab-content" id="alumniTabsContent">
+            <div class="tab-pane fade show active" id="year2023" role="tabpanel" aria-labelledby="year2023-tab">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="alumni-card">
+                            <h5>John Doe</h5>
+                            <p><strong>Phone:</strong> (123) 456-7890</p>
+                            <p><strong>Filière:</strong> Computer Science</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="alumni-card">
+                            <h5>Jane Smith</h5>
+                            <p><strong>Phone:</strong> (123) 456-7891</p>
+                            <p><strong>Filière:</strong> Business Administration</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="alumni-card">
+                            <h5>Mike Johnson</h5>
+                            <p><strong>Phone:</strong> (123) 456-7892</p>
+                            <p><strong>Filière:</strong> Electrical Engineering</p>
+                        </div>
+                    </div>
+                    <!-- Add more alumni as needed -->
+                </div>
+            </div>
+            <div class="tab-pane fade" id="year2022" role="tabpanel" aria-labelledby="year2022-tab">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="alumni-card">
+                            <h5>Alice Brown</h5>
+                            <p><strong>Phone:</strong> (123) 456-7893</p>
+                            <p><strong>Filière:</strong> Mechanical Engineering</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="alumni-card">
+                            <h5>Bob White</h5>
+                            <p><strong>Phone:</strong> (123) 456-7894</p>
+                            <p><strong>Filière:</strong> Psychology</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="alumni-card">
+                            <h5>Carol Green</h5>
+                            <p><strong>Phone:</strong> (123) 456-7895</p>
+                            <p><strong>Filière:</strong> Mathematics</p>
+                        </div>
+                    </div>
+                    <!-- Add more alumni as needed -->
+                </div>
+            </div>
+            <div class="tab-pane fade" id="year2021" role="tabpanel" aria-labelledby="year2021-tab">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="alumni-card">
+                            <h5>David Black</h5>
+                            <p><strong>Phone:</strong> (123) 456-7896</p>
+                            <p><strong>Filière:</strong> Chemistry</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="alumni-card">
+                            <h5>Eve Blue</h5>
+                            <p><strong>Phone:</strong> (123) 456-7897</p>
+                            <p><strong>Filière:</strong> Philosophy</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="alumni-card">
+                            <h5>Frank Grey</h5>
+                            <p><strong>Phone:</strong> (123) 456-7898</p>
+                            <p><strong>Filière:</strong> History</p>
+                        </div>
+                    </div>
+                    <!-- Add more alumni as needed -->
+                </div>
+            </div>
+            <!-- Add more tab panes as needed -->
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

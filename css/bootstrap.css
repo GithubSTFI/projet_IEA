@@ -2837,7 +2837,7 @@ input[type="button"].btn-block {
 }
 
 .custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
-	background-color: #007bff;
+	background-color: #118022;
 }
 
 .custom-checkbox .custom-control-input:checked ~ .custom-control-label::after {
@@ -2845,7 +2845,7 @@ input[type="button"].btn-block {
 }
 
 .custom-checkbox .custom-control-input:indeterminate ~ .custom-control-label::before {
-	background-color: #007bff;
+	background-color: #118022;
 }
 
 .custom-checkbox .custom-control-input:indeterminate ~ .custom-control-label::after {
@@ -7772,6 +7772,7 @@ button.close {
 
 .text-center {
 	text-align: center !important;
+	
 }
 
 @media (min-width: 576px) {
@@ -7807,6 +7808,7 @@ button.close {
 	}
 	.text-lg-center {
 		text-align: center !important;
+		
 	}
 }
 
