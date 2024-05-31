@@ -57,6 +57,63 @@
  *     5.20 Countdown
  */
 /** @section Reset Styles*/
+.partenaires {
+    padding: 60px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.partenaires h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+}
+
+.partenaires-container {
+    display: flex;
+    justify-content: flex-start;
+    overflow-x: auto;
+    padding: 10px 0;
+    scroll-behavior: smooth;
+    scrollbar-width: none;  /* Firefox */
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+}
+
+.partenaires-container::-webkit-scrollbar {
+    display: none;  /* Safari and Chrome */
+}
+
+.logo {
+    flex: 0 0 auto;
+    width: 150px;
+    margin: 0 15px;
+}
+
+.logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .partenaires h2 {
+        font-size: 2em;
+    }
+
+    .logo {
+        width: 120px;
+        margin: 0 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .partenaires h2 {
+        font-size: 2.5em;
+    }
+
+    .logo {
+        width: 100px;
+        margin: 0 5px;
+    }
+}
 a:focus,
 button:focus {
 	outline: none !important;
